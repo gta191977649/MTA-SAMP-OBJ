@@ -1,5 +1,7 @@
 # SAMP MAP LOADER
 Add support to load your favourite SA-MP maps into the MTA-SA!
+## Related Topic 
+* https://forum.mtasa.com/topic/130386-rel-sa-mp-map-loader
 ## Screens 
 ![](doc/img1.png)
 Even works on this kinds of crazy map
