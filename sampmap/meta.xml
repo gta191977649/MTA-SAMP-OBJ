@@ -1,0 +1,16 @@
+<meta>
+    <script type="client" src="loader/texturestudio_loader.lua"/>
+    <script type="client" src="loader/map_loader.lua"/>
+    <script type="client" src="sampmap.lua"/>
+    <file type="client" src="map/test_map.txt"/>
+    <file type="client" src="map/sf_news.txt"/>
+    <file type="client" src="map/sf_hospital.txt"/>
+    <file type="client" src="map/lspd_evolve.txt"/>
+    <file type="client" src="map/all_saints_general_hosiptal.txt"/>
+    <file type="client" src="map/sf_pd.txt"/>
+    <file type="client" src="map/ls_office_v2.txt"/>
+    <file type="client" src="map/market.txt"/>
+    <file type="client" src="map/airport-int.pwn"/>
+    <file type="client" src="map/vw-house-int.pwn"/>
+    <file type="client" src="map/space.pwn"/>
+</meta>
