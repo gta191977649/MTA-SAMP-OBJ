@@ -1,5 +1,5 @@
 # SAMP MAP LOADER
-Add support to load your favorite SA-MP maps into the MTA-SA!
+Add support to load your favourite SA-MP maps into the MTA-SA!
 ## Screens 
 ![](doc/img1.png)
 Even works on this kinds of crazy map
