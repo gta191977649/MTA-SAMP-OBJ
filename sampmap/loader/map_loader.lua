@@ -1,4 +1,3 @@
-DGS = exports.dgs
 SAMP = exports.sampobj
 
 local total = 0
@@ -29,13 +28,6 @@ function loadSAMPMap(filename,int)
             --local obj = createObject(model,x,y,z,rx,ry,rz)
             local obj = SAMP:createSAMPObject(model,x,y,z,rx,ry,rz)
             if obj then
-                --[[
-                local l = DGS:dgsCreate3DText(tonumber(x),tonumber(y),tonumber(z),string.format("MODEL: %d\nMAT_MODEL:%d\n%f,%f,%f",model,mat_model,x,y,z))
-                DGS:dgsSetProperty(l,"fadeDistance",3)
-                DGS:dgsSetProperty(l,"maxDistance",10)
-                DGS:dgsSetProperty(l,"textSize",{0.5,0.5})
-                DGS:dgsSetProperty(l,"shadow",{0.1,0.1,tocolor(0,0,0,255),true})
-                --]]
                 setElementInterior(obj,int)
                 if txdName ~= "nill" or txdName ~= "none" then -- material objects
                     SAMP:setObjectMaterial(obj,mat_id,mat_model,libName,txdName,0)
