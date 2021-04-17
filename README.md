@@ -13,7 +13,7 @@ Even works on this kinds of crazy map
 ## Usage 
 1. places the `sampobj` and `sampmap` into your mta-resrouces folder
 2. in `sampmap` resources, find a file nammed `sampmap.lua` , it already contains a example map made by samp texture-studio (special thanks to author [Unu Alex](https://www.youtube.com/watch?v=Sb4cU0vY3T0) for the creation of this hard work.), you can add your own map under this file.
-3. start the resources `sampobj` and `sampmap` & enjoy, you can check out `/testmap`  command to teleport you to the sample example samp map.
+3. start the resources `sampobj` and `sampmap` & enjoy, you can check out `/maptest`  command to teleport you to the sample example samp map.
 ## Exports 
 ### sampobj
 * `createSAMPObject(model_id,x,y,z,rx,ry,rz)` 
